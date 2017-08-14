@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------ */
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .row__medium-5 {
+    max-width: 41.66%;
+  }
+  .row__medium-7 {
+    max-width: 58.33%;
+  }
+}
+
+[class*="row__"] {
+  float: left;
+  width: 100%;
+}
+
+.recipes {
+  background-color: #E0E4CC;
+}
+
+.app-header {
+  width: 100%;
+  padding: 15px 12px;
+  color: #FFF;
+  background-color: #FA6900;
+}
+
+.app-header > h1 {
+  margin: 0;
+  letter-spacing: 1.5px;
+}

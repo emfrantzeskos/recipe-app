@@ -1,0 +1,19 @@
+.row
+  padding-left: 15px
+  padding-right: 15px
+
+  &::after
+    content: ''
+    display: table
+    clear: both
+
+  +medium-and-above
+    &__medium-5
+      max-width: 41.66%
+
+    &__medium-7
+      max-width: 58.33%
+
+[class*="row__"]
+  float: left
+  width: 100%
