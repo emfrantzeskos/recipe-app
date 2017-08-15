@@ -1,10 +1,95 @@
 .app-header
   width: 100%
-  padding: 15px 12px
   color: #FFF
+  padding-top: 10px
+  padding-bottom: 10px
   background-color: #FA6900
 
+  &__title
+    float: none
+    display: block
+    font-size: 2.25rem
+    margin: 0
+    font-weight: 700
+    letter-spacing: 1.5px
+    +small-and-above
+      float: left
+      display: inline-block
 
-.app-header > h1
+
+nav
+  // border: 1px dotted white
+
+
+.navbar-header
+
+  &::after
+    +clearfix
+
+  & a
+    display: inline-block
+    padding: 4px
+    font-size: 1.3rem
+
+
+.nav
+  list-style-type: none
   margin: 0
-  letter-spacing: 1.5px
+  padding: 0
+
+  &--pull-right
+    float: right
+
+
+
+.nav-primary
+  margin-top: 15px
+  +small-and-above
+    margin: 9px 0 0 40px
+
+  &--pull-left
+    float: none
+    +small-and-above
+      float: left
+
+  & li
+    display: block
+    margin-bottom: 5px
+    +small-and-above
+      display: inline-block
+      padding-right: .5rem
+      margin-bottom: 0
+
+    &:last-child
+      padding-right: 0
+      margin-bottom: 0
+
+
+.dropdown-toggle
+  margin-top: 9px
+
+
+.dropdown-menu
+  display: none
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

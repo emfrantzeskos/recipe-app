@@ -19,7 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/normalize.css/normalize.css",
+        "../src/assets/font-awesome-icons/css/font-awesome.min.css",
         "styles.css"
       ],
       "scripts": [],
